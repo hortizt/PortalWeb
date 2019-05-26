@@ -22,4 +22,6 @@ class DbUtilTest extends GroovyTestCase {
         assert DbUtilInventario.sql.rows('SELECT * FROM CONSULTA_DATOS_BA').size() ==1
 
     }
+
+
 }

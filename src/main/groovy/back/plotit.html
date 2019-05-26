@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Flot Examples: Basic Usage</title>
+        <link href='css/bootstrap.min.css' rel='stylesheet' media='screen'></link>
+    </head>
+    <body>
+
+        <div class="container">
+            <div id="header">
+                <h2>Basic Usage</h2>
+            </div>
+
+            <div class="demo-container">
+                <div id="placeholder" style="width:600px; height: 400px;"></div>
+            </div>
+            <div class="row">
+                <div class="span6">
+                    <h3 id="statsDag"></h3>
+                    <h4>Varsler behandlet</h4>
+                    <div id="behandletDag" style="width: 400px; height: 400px; margin: auto;"></div>
+                    <h4>Varsler sendt med epost</h4>
+                    <div id="epostDag" style="width: 400px; height: 400px; margin: auto;"></div>
+                    <h4>Varsler sendt med sms</h4>
+                    <div id="smsDag" style="width: 400px; height: 400px; margin: auto;"></div>
+                </div>
+                <div class="span6">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Dato</th>
+                                <th>Behandlet</th>
+                                <th>Sendt epost</th>
+                                <th>Sendt sms</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="datorad">
+                                <td class="dato">2013-06-03</td>
+                                <td>113</td>
+                                <td>28</td>
+                                <td>13</td>
+                            </tr>
+                            <tr class="datorad">
+                                <td class="dato">2013-06-02</td>
+                                <td>413</td>
+                                <td>98</td>
+                                <td>33</td>
+                            </tr>
+                            <tr class="datorad">
+                                <td class="dato">2013-06-01</td>
+                                <td>213</td>
+                                <td>78</td>
+                                <td>23</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="footer">
+                footer
+            </div>
+        </div>
+        <script language="javascript" type="text/javascript" src="flot/jquery.js"></script>
+        <script language="javascript" type="text/javascript" src="flot/jquery.flot.js"></script>
+        <script language="javascript" type="text/javascript" src="flot/jquery.flot.time.js"></script>
+        <script language="javascript" type="text/javascript" src="flot/jquery.flot.pie.js"></script>
+        <script type="text/javascript" src="js/plotit.js"></script>
+    </body>
+</html>
+

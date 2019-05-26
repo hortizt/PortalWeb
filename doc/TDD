@@ -1,0 +1,18 @@
+# Desarrollo
+
+## APP
+- app principal donde invoque los diferentes servicios.
+
+## UI
+- Menu, login https://www.w3schools.com/howto/howto_css_icon_bar.asp
+
+https://bootsnipp.com/snippets/VgZb
+- eliminar la necesidad de acceder poniendo la extensión groovy o gsp
+
+## BBDD
+- Obtener las diferentes consultas en cada modelo de datos
+- Configurar con pool en vez de conexiones.
+-
+
+# Despliegue
+- emcapsularlo en un script que se ejecute independientemente
